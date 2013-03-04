@@ -7,17 +7,20 @@ sudo bash < <( curl https://raw.github.com/jamiew/git-friendly/master/install.sh
 
 # https://rvm.io
 # rvm for the rubiess
-curl -L https://get.rvm.io | bash -s stable --ruby
+# ! installed
+# curl -L https://get.rvm.io | bash -s stable --ruby
 
 # https://github.com/isaacs/nave
 # needs npm, obviously.
 # TODO: I think i'd rather curl down the nave.sh, symlink it into /bin and use that for initial node install.
-npm install -g nave
+# ! Don't need it
+# npm install -g nave
 
 
 # homebrew!
 # you need the code CLI tools YOU FOOL.
-ruby <(curl -fsSkL raw.github.com/mxcl/homebrew/go)
+# ! installed
+# ruby <(curl -fsSkL raw.github.com/mxcl/homebrew/go)
 
 
 
@@ -33,8 +36,8 @@ chmod +x ~/code/z/z.sh
 #   . ~/code/z/z.sh
 
 
-cd ~/code
-git clone git://github.com/dronir/SpotifyControl.git
+# cd ~/code
+# git clone git://github.com/dronir/SpotifyControl.git
 
 
 
@@ -48,7 +51,7 @@ git clone git://github.com/dronir/SpotifyControl.git
 
 
 # for the c alias (syntax highlighted cat)
-sudo easy_install Pygments
+# sudo easy_install Pygments
 
 
 # chrome canary as default

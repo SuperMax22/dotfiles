@@ -17,8 +17,7 @@ alias please=sudo
 alias hosts='sudo $EDITOR /etc/hosts'   # yes I occasionally 127.0.0.1 twitter.com ;)
 
 # handy things
-alias bunyip='node ~/code/bunyip/cli.js'
-alias spotify="osascript ~/code/SpotifyControl/SpotifyControl.scpt"
+alias salt='python /Users/gideon/other\ scripts/password_generator.py'
 
 
 # Detect which `ls` flavor is in use
@@ -105,7 +104,7 @@ alias showdesktop="defaults write com.apple.finder CreateDesktop -bool true && k
 
 
 # PlistBuddy alias, because sometimes `defaults` just doesn’t cut it
-alias plistbuddy="/usr/libexec/PlistBuddy"
+#alias plistbuddy="/usr/libexec/PlistBuddy"
 
 # One of @janmoesen’s ProTip™s
 for method in GET HEAD POST PUT DELETE TRACE OPTIONS; do
