@@ -45,3 +45,7 @@
 # http://rentzsch.tumblr.com/post/564806957/public-but-hackable-git-submodules
 [url "git@github.com:gfarrell/"]
   insteadOf = "git://github.com/gfarrell/"
+
+[user]
+      name = Gideon Farrell
+      email = me@gideonfarrell.co.uk
