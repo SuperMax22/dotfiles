@@ -24,3 +24,6 @@ export LANG="en_GB"
 # Add tab completion for `defaults read|write NSGlobalDomain`
 # You could just use `-g` instead, but I like being explicit
 complete -W "NSGlobalDomain" defaults
+
+# Change the directories colour to yellow because it's just too dark
+export LS_COLORS='di=01;33'
