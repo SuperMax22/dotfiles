@@ -1,5 +1,5 @@
 # Make text mate
-export EDITOR="mate"
+export EDITOR="choc"
 # Don’t clear the screen after quitting a manual page
 export MANPAGER="less -X"
 
