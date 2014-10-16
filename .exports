@@ -46,7 +46,7 @@ export LSCOLORS=cxgxfxxxbxxxxxxxxxxxxx
 
 # export paths
 PATH="/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"
-PATH="$PATH:/usr/local/share/npm/bin" # NPM paths
+PATH="$PATH:/usr/local/share/npm/bin:./node_modules/.bin" # NPM paths + local NPM paths
 PATH="$PATH:/usr/local/texlive/2013/bin/universal-darwin" # LaTeX stuff
 
 export PATH
