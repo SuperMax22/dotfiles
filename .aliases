@@ -112,6 +112,10 @@ done
 #npm list function
 alias npmls="npm ls --depth=0"
 
+# Some audio output switcher stuff
+alias SwitchAudioOutputBuiltIn="SwitchAudioSource -t output -s \"Built-in Output\""
+alias SwitchAudioOutputHDMI="SwitchAudioSource -t output -s \"Soundflower (2ch)\""
+
 # Stuff I never really use but cannot delete either because of http://xkcd.com/530/
 alias stfu="osascript -e 'set volume output muted true'"
 alias pumpitup="osascript -e 'set volume 10'"
