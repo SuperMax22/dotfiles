@@ -16,7 +16,7 @@ alias please=sudo
 alias hosts='sudo $EDITOR /etc/hosts'   # yes I occasionally 127.0.0.1 twitter.com ;)
 
 # handy things
-alias salt='python /Users/gideon/other\ scripts/password_generator.py'
+alias salt='python /Users/gideon/Code/sandbox/password_generator.py'
 alias spot='~/.bin/spot'
 
 # Detect which `ls` flavor is in use
