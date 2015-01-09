@@ -1,5 +1,5 @@
-# Make chocolat
-export EDITOR="choc"
+# Make atom the editor
+export EDITOR="atom"
 # Don’t clear the screen after quitting a manual page
 export MANPAGER="less -X"
 
