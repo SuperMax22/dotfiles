@@ -8,8 +8,8 @@ unset file
 # init z   https://github.com/rupa/z
 . ~/.bin/z
 
-# init rvm
-# source ~/.rvm/scripts/rvm
+# init rbenv
+eval "$(rbenv init -)"
 
 # Case-insensitive globbing (used in pathname expansion)
 shopt -s nocaseglob
