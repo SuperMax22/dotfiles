@@ -27,3 +27,7 @@ complete -W "NSGlobalDomain" defaults
 
 # Change the directories colour to yellow because it's just too dark
 export LS_COLORS='di=01;33'
+
+# Initialise nvm
+export NVM_DIR=~/.nvm
+source $(brew --prefix nvm)/nvm.sh
