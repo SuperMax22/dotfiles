@@ -8,6 +8,10 @@ export HISTSIZE=32768
 export HISTFILESIZE=$HISTSIZE
 export HISTCONTROL=ignoredups
 
+# Node REPL history
+export NODE_REPL_HISTORY_FILE="~/.node_history"
+export NODE_REPL_HISTORY_SIZE=$HISTSIZE
+
 # timestamps for bash history. www.debian-administration.org/users/rossen/weblog/1
 # saved for later analysis
 HISTTIMEFORMAT='%F %T '
