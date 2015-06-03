@@ -8,6 +8,9 @@ unset file
 # init z   https://github.com/rupa/z
 . ~/.bin/z
 
+# init resty
+. ~/.bin/resty
+
 # init rbenv
 eval "$(rbenv init -)"
 
