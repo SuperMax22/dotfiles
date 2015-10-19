@@ -57,7 +57,7 @@ unset file
 source ~/.bin/z
 
 # Init resty
-source ~/.bin/resty
+# source ~/.bin/resty
 
 # Initialise nvm
 export NVM_DIR=~/.nvm
