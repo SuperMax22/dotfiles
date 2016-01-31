@@ -44,8 +44,8 @@
     autosetuprebase = always
 
 [user]
-    name = Gideon Farrell
-    email = gideon@converge.io
+    name = Max Barnett
+    email = maxamusbarnett@gmail.com
 
 [diff]
     tool = vimdiff
